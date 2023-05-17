@@ -14,12 +14,14 @@ export default function Cacti() {
     }, [])
 
     return (
-        <div>
-            {
-                cacti.map((cactus) => {
-                    return <Cactus key={cactus.id} cactus={cactus} />
-                })
-            }
+        <div className='cacti'>
+            <section>
+                {
+                    cacti.map((cactus) => {
+                        return <Cactus key={cactus.id} cactus={cactus} />
+                    })
+                }
+            </section>
         </div>
     )
 }
