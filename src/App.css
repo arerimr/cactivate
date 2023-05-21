@@ -87,8 +87,13 @@
   text-decoration: none;
 }
 
-.details button:hover{
+.details button:hover {
   width: 100px;
   background-color: #414833;
   color: #F2E3DB;
+}
+
+.cactus button {
+  background-color: #b6ad90;
+  border-radius: 50%;
 }
