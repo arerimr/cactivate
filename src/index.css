@@ -54,4 +54,13 @@ code {
   grid-template-rows: auto;
   align-items: center;
   color: #414833;
+  margin: 5%;
+}
+
+.footer{
+  background-color: #b6ad90;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
 }
