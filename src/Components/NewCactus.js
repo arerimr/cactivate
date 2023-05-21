@@ -24,8 +24,11 @@ export default function NewCactus() {
     setCactus({ ...cactus, [event.target.id]: event.target.value });
   }
 
-  const handleCheckboxChange = () => {
+  const handleFlowersChange = () => {
     setCactus({ ...cactus, flowers: !cactus.flowers });
+  }
+
+  const handleEdibleChange = () => {
     setCactus({ ...cactus, edible: !cactus.edible });
   }
 
@@ -55,7 +58,7 @@ export default function NewCactus() {
         <label htmlFor="url">Image URL:</label>
         <input
           id="image"
-          type="text"
+          type="url"
           pattern="http[s]*://.+"
           required
           value={cactus.image}
@@ -93,7 +96,7 @@ export default function NewCactus() {
         <input
           id="flowers"
           type="checkbox"
-          onChange={handleCheckboxChange}
+          onChange={handleFlowersChange}
           checked={cactus.flowers}
         />
         <label htmlFor="max_height">Max Height:</label>
@@ -125,7 +128,7 @@ export default function NewCactus() {
         <input
           id="edible"
           type="checkbox"
-          onChange={handleCheckboxChange}
+          onChange={handleEdibleChange}
           checked={cactus.edible}
         />
         <input type="submit" className='submit' />
