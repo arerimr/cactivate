@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #b6ad90;
 }
 
 code {
@@ -12,28 +13,45 @@ code {
     monospace;
 }
 
-.cacti{
+.cacti {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
-.cacti section{
+.cacti section {
   display: grid;
   grid-template-columns: repeat(3, 400px);
   grid-template-rows: auto;
   align-items: center;
 }
 
-.cacti div{
+.cacti div {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10%;
   padding: 10px;
+  background-color: #b6ad90;
+  border-radius: 5%;
+  color: #333d29;
 }
 
 .cacti img {
   width: auto;
   height: 200px;
+  border-radius: 5%;
+}
+
+.details img {
+  height: 350px;
+  border-radius: 50%;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+  color: #414833;
 }

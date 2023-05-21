@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #F2E3DB;
 }
 
 .App-logo {
@@ -39,6 +40,7 @@
 }
 
 .navbar {
+  background-color: #414833;
   display: flex;
   display: grid;
   grid-template-columns: repeat(3, 400px);
@@ -48,4 +50,45 @@
 
 .navbar a {
   text-decoration: none;
+  color: #F2E3DB;
+}
+
+.navbar button {
+  background-color: #F2E3DB;
+}
+
+.navbar button a {
+  color: #414833;
+}
+
+.cacti img:hover {
+  width: auto;
+  height: 270px;
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: overline
+}
+
+.icons {
+  font-size: xx-large;
+}
+
+.details button {
+  background-color: #F2E3DB;
+  width: 70px;
+  height: 30px;
+  color: #414833;
+}
+
+.details button a {
+  color: #414833;
+  text-decoration: none;
+}
+
+.details button:hover{
+  width: 100px;
+  background-color: #414833;
+  color: #F2E3DB;
 }
