@@ -97,3 +97,9 @@
   background-color: #b6ad90;
   border-radius: 50%;
 }
+
+.cacti aside select {
+  background-color: #F2E3DB;
+  height: 50px;
+  font-size: x-large;
+}
