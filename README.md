@@ -1,4 +1,4 @@
-# [Cact🌵vate](http://localhost:3000/)
+# [Cac🌵ivate](http://localhost:3000/)
 
 # [BACKEND REPO](https://github.com/arerimr/cactivate-backend)
 
