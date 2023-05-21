@@ -3,11 +3,15 @@
     color: green;
     margin: 2rem;
 }
-  
+
 .jigsaw-puzzle {
     width: 38%;
-    height: 38%;
-    border: 2px solid black;
+    height: auto;
+    border: 2px solid #414833;
     margin: auto;
     box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.puzzle img {
+    height: 100px;
 }

@@ -103,3 +103,9 @@
   height: 50px;
   font-size: x-large;
 }
+
+.not-found {
+  background-image: url("./Assets/404.jpg");
+  height: 600px;
+  width: 120%;
+}
