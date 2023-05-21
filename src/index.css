@@ -57,10 +57,37 @@ code {
   margin: 5%;
 }
 
-.footer{
+.footer {
   background-color: #b6ad90;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   align-items: center;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+  color: #414833;
+}
+
+.form form input {
+  margin: .5%;
+  background-color: #b6ad90;
+}
+
+.submit {
+  background-color: #F2E3DB;
+  width: 70px;
+  height: 30px;
+  color: #414833;
+}
+
+.form button {
+  background-color: #F2E3DB;
+  width: 70px;
+  height: 40px;
+  color: #414833;
 }
